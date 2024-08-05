@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="images/search.png" alt="Search"></button>
+        </div>
+
+        <div class="error">
+            <p>Invalid city name!</p>
+        </div>
+
+        <div class="weather">
+            <img src="images/clouds.png" class="weather-icon" alt="Weather Icon">
+            <h1 class="temp">26.64°C</h1>
+            <h2 class="city">Tirupur</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="Humidity">
+                    <div>
+                        <p class="humidity">81%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="Wind Speed">
+                    <div>
+                        <p class="wind">7.29 km/hr</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uv-tan-section">
+                <div class="col">
+                    <img src="images/uv-index.png" class="uv-icon" alt="UV Index">
+                    <div>
+                        <p class="uv">12.98</p>
+                        <p>UV Index</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/tan.png" class="tan-icon" alt="Tan Index">
+                    <div>
+                        <p class="tan">Extreme</p>
+                        <p>Tan Index</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mood">
+                <h3 class="mood-title">Today's Mood:</h3>
+                <p class="mood-message">It’s cloudy; maybe stay in and read a book.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
